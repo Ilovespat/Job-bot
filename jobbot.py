@@ -4,14 +4,15 @@ import datetime
 from telebot import types
 import psycopg2
 import schedule
-import time
+# для отправки напоминаний
+# import time 
 
 
 db_config={
     'dbname':'',
     'user':'',
     'password':'',
-    'host':'localhost'
+    'host':''
     }
 
 token = ""
